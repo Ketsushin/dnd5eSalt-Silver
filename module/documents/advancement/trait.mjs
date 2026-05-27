@@ -25,7 +25,7 @@ export default class TraitAdvancement extends Advancement {
       },
       order: 30,
       icon: "icons/sundries/scrolls/scroll-yellow-teal.webp",
-      typeIcon: "systems/dnd5e/icons/svg/trait.svg",
+      typeIcon: "systems/ketsushin-salt-silver/icons/svg/trait.svg",
       title: game.i18n.localize("DND5E.ADVANCEMENT.Trait.Title"),
       hint: game.i18n.localize("DND5E.ADVANCEMENT.Trait.Hint"),
       apps: {

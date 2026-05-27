@@ -32,7 +32,7 @@ export default class SetDateDialog extends Dialog5e {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/apps/set-date-dialog.hbs"
+      template: "systems/ketsushin-salt-silver/templates/apps/set-date-dialog.hbs"
     }
   };
 

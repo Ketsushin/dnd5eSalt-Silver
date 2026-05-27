@@ -22,11 +22,11 @@ export default class TransformSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     effect: {
-      template: "systems/dnd5e/templates/activity/transform-effect.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/transform-effect.hbs",
       templates: [
         ...super.PARTS.effect.templates,
-        "systems/dnd5e/templates/activity/parts/transform-profiles.hbs",
-        "systems/dnd5e/templates/activity/parts/transform-settings.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/transform-profiles.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/transform-settings.hbs"
       ]
     }
   };

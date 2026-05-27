@@ -41,7 +41,7 @@ import * as Trait from "./trait.mjs";
 export default class Actor5e extends SystemDocumentMixin(Actor) {
 
   /** @override */
-  static DEFAULT_ICON = "systems/dnd5e/icons/svg/documents/actor.svg";
+  static DEFAULT_ICON = "systems/ketsushin-salt-silver/icons/svg/documents/actor.svg";
 
   /* -------------------------------------------- */
 
@@ -1134,7 +1134,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     return ChatMessage.implementation.create({
       content: await foundry.applications.handlebars.renderTemplate(
-        "systems/dnd5e/templates/chat/roll-request-card.hbs",
+        "systems/ketsushin-salt-silver/templates/chat/roll-request-card.hbs",
         {
           buttons: [{
             dataset: { ...dataset, type: "concentration", visbility: "all" },

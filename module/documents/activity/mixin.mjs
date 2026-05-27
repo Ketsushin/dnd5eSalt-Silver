@@ -39,7 +39,7 @@ export default function ActivityMixin(Base) {
       sheetClass: ActivitySheet,
       usage: {
         actions: {},
-        chatCard: "systems/dnd5e/templates/chat/activity-card.hbs",
+        chatCard: "systems/ketsushin-salt-silver/templates/chat/activity-card.hbs",
         dialog: ActivityUsageDialog
       }
     });

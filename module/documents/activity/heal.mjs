@@ -19,7 +19,7 @@ export default class HealActivity extends ActivityMixin(BaseHealActivityData) {
   static metadata = Object.freeze(
     foundry.utils.mergeObject(super.metadata, {
       type: "heal",
-      img: "systems/dnd5e/icons/svg/activity/heal.svg",
+      img: "systems/ketsushin-salt-silver/icons/svg/activity/heal.svg",
       title: "DND5E.HEAL.Title",
       hint: "DND5E.HEAL.Hint",
       sheetClass: HealSheet,
@@ -49,7 +49,7 @@ export default class HealActivity extends ActivityMixin(BaseHealActivityData) {
     if ( !this.healing.formula ) return super._usageChatButtons(message);
     return [{
       label: game.i18n.localize("DND5E.HEAL.HealingButton"),
-      icon: '<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/damage/healing.svg"></i>',
+      icon: '<i class="dnd5e-icon" data-src="systems/ketsushin-salt-silver/icons/svg/damage/healing.svg"></i>',
       dataset: {
         action: "rollHealing"
       }

@@ -21,7 +21,7 @@ export default class ActiveEffect5e extends DependentDocumentMixin(ActiveEffect)
    * The default icon used for newly created Active Effect documents.
    * @type {string}
    */
-  static DEFAULT_ICON = "systems/dnd5e/icons/svg/documents/active-effect.svg";
+  static DEFAULT_ICON = "systems/ketsushin-salt-silver/icons/svg/documents/active-effect.svg";
 
   /* -------------------------------------------- */
 
@@ -995,7 +995,7 @@ export default class ActiveEffect5e extends DependentDocumentMixin(ActiveEffect)
 
     return {
       content: await foundry.applications.handlebars.renderTemplate(
-        "systems/dnd5e/templates/effects/parts/effect-tooltip.hbs", {
+        "systems/ketsushin-salt-silver/templates/effects/parts/effect-tooltip.hbs", {
           effect: this,
           description: await TextEditor.enrichHTML(this.description ?? "", { relativeTo: this, ...enrichmentOptions }),
           durationParts: this.duration.remaining ? this.duration.label.split(", ") : [],

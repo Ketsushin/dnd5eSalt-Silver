@@ -16,7 +16,7 @@ export default class BastionSettingsConfig extends BaseSettingsConfig {
   static PARTS = {
     ...super.PARTS,
     config: {
-      template: "systems/dnd5e/templates/settings/bastion-config.hbs"
+      template: "systems/ketsushin-salt-silver/templates/settings/bastion-config.hbs"
     }
   };
 

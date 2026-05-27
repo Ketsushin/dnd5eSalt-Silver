@@ -20,11 +20,11 @@ export default class SummonSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     effect: {
-      template: "systems/dnd5e/templates/activity/summon-effect.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/summon-effect.hbs",
       templates: [
         ...super.PARTS.effect.templates,
-        "systems/dnd5e/templates/activity/parts/summon-changes.hbs",
-        "systems/dnd5e/templates/activity/parts/summon-profiles.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/summon-changes.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/summon-profiles.hbs"
       ]
     }
   };

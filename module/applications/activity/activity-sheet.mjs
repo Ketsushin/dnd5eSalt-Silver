@@ -37,26 +37,26 @@ export default class ActivitySheet extends PseudoDocumentSheet {
       template: "templates/generic/tab-navigation.hbs"
     },
     identity: {
-      template: "systems/dnd5e/templates/activity/identity.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/identity.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-identity.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-visibility.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-identity.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-visibility.hbs"
       ]
     },
     activation: {
-      template: "systems/dnd5e/templates/activity/activation.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-time.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-targeting.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-time.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-targeting.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/effect.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/effect.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-effects.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-effect-level-limit.hbs",
-        "systems/dnd5e/templates/activity/parts/activity-effect-settings.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-effects.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-effect-level-limit.hbs",
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-effect-settings.hbs"
       ]
     }
   };
@@ -283,7 +283,7 @@ export default class ActivitySheet extends PseudoDocumentSheet {
           prefix: `effects.${data._index}.`,
           source: context.source.effects[data._index] ?? data,
           contentLink: data.effect.toAnchor().outerHTML,
-          additionalSettings: "systems/dnd5e/templates/activity/parts/activity-effect-settings.hbs"
+          additionalSettings: "systems/ketsushin-salt-silver/templates/activity/parts/activity-effect-settings.hbs"
         };
         arr.push(this._prepareAppliedEffectContext(context, effect));
         return arr;

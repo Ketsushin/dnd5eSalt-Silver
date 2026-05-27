@@ -22,7 +22,7 @@ export default class StartingEquipmentConfig extends DocumentSheet5e {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/apps/starting-equipment-config.hbs"
+      template: "systems/ketsushin-salt-silver/templates/apps/starting-equipment-config.hbs"
     }
   };
 

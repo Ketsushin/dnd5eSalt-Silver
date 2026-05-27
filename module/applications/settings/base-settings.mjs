@@ -25,7 +25,7 @@ export default class BaseSettingsConfig extends Application5e {
   /** @override */
   static PARTS = {
     config: {
-      template: "systems/dnd5e/templates/settings/base-config.hbs"
+      template: "systems/ketsushin-salt-silver/templates/settings/base-config.hbs"
     },
     footer: {
       template: "templates/generic/form-footer.hbs"

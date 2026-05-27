@@ -63,7 +63,7 @@ DND5E.abilities = {
     type: "physical",
     fullKey: "strength",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.nUPv6C66Ur64BIUH",
-    icon: "systems/dnd5e/icons/svg/abilities/strength.svg"
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/strength.svg"
   },
   dex: {
     label: "DND5E.AbilityDex",
@@ -71,7 +71,7 @@ DND5E.abilities = {
     type: "physical",
     fullKey: "dexterity",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ER8CKDUWLsFXuARJ",
-    icon: "systems/dnd5e/icons/svg/abilities/dexterity.svg"
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/dexterity.svg"
   },
   con: {
     label: "DND5E.AbilityCon",
@@ -79,7 +79,7 @@ DND5E.abilities = {
     type: "physical",
     fullKey: "constitution",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.MpA4jnwD17Q0RPg7",
-    icon: "systems/dnd5e/icons/svg/abilities/constitution.svg"
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/constitution.svg"
   },
   int: {
     label: "DND5E.AbilityInt",
@@ -87,7 +87,7 @@ DND5E.abilities = {
     type: "mental",
     fullKey: "intelligence",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.WzWWcTIppki35YvF",
-    icon: "systems/dnd5e/icons/svg/abilities/intelligence.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/intelligence.svg",
     defaults: { vehicle: 0 }
   },
   wis: {
@@ -96,7 +96,7 @@ DND5E.abilities = {
     type: "mental",
     fullKey: "wisdom",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.v3IPyTtqvXqN934s",
-    icon: "systems/dnd5e/icons/svg/abilities/wisdom.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/wisdom.svg",
     defaults: { vehicle: 0 }
   },
   cha: {
@@ -105,7 +105,7 @@ DND5E.abilities = {
     type: "mental",
     fullKey: "charisma",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.9FyghudYFV5QJOuG",
-    icon: "systems/dnd5e/icons/svg/abilities/charisma.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/abilities/charisma.svg",
     defaults: { vehicle: 0 }
   },
   hon: {
@@ -476,50 +476,50 @@ DND5E.facilities = {
   orders: {
     build: {
       label: "DND5E.FACILITY.Orders.build.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/build.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/build.svg"
     },
     change: {
       label: "DND5E.FACILITY.Orders.change.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/change.svg",
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/change.svg",
       duration: 21
     },
     craft: {
       label: "DND5E.FACILITY.Orders.craft.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/craft.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/craft.svg"
     },
     empower: {
       label: "DND5E.FACILITY.Orders.empower.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/empower.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/empower.svg"
     },
     enlarge: {
       label: "DND5E.FACILITY.Orders.enlarge.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/enlarge.svg",
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/enlarge.svg",
       basic: true
     },
     harvest: {
       label: "DND5E.FACILITY.Orders.harvest.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/harvest.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/harvest.svg"
     },
     maintain: {
       label: "DND5E.FACILITY.Orders.maintain.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/maintain.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/maintain.svg"
     },
     recruit: {
       label: "DND5E.FACILITY.Orders.recruit.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/recruit.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/recruit.svg"
     },
     repair: {
       label: "DND5E.FACILITY.Orders.repair.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/repair.svg",
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/repair.svg",
       hidden: true
     },
     research: {
       label: "DND5E.FACILITY.Orders.research.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/research.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/research.svg"
     },
     trade: {
       label: "DND5E.FACILITY.Orders.trade.inf",
-      icon: "systems/dnd5e/icons/svg/facilities/trade.svg"
+      icon: "systems/ketsushin-salt-silver/icons/svg/facilities/trade.svg"
     }
   },
   sizes: {
@@ -1691,7 +1691,7 @@ preLocalize("featureTypes.supernaturalGift.subtypes", { sort: true });
 DND5E.itemProperties = {
   mgc: {
     label: "Magisch/Geheiligt",
-    icon: "systems/dnd5e/icons/svg/properties/magical.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/properties/magical.svg",
     isPhysical: true
   },
   sil: {
@@ -1701,14 +1701,14 @@ DND5E.itemProperties = {
   concentration: {
     label: "DND5E.ITEM.Property.Concentration",
     abbreviation: "DND5E.ConcentrationAbbr",
-    icon: "systems/dnd5e/icons/svg/statuses/concentrating.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/statuses/concentrating.svg",
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ow58p27ctAnr4VPH",
     isTag: true
   },
   ritual: {
     label: "DND5E.ITEM.Property.Ritual",
     abbreviation: "DND5E.RitualAbbr",
-    icon: "systems/dnd5e/icons/svg/items/spell.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/items/spell.svg",
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.FjWqT5iyJ89kohdA",
     isTag: true
   },
@@ -1991,70 +1991,70 @@ preLocalize("damageScalingModes", { keys: ["label", "labelCantrip"] });
 DND5E.damageTypes = {
   slashing: {
     label: "Hieb",
-    icon: "systems/dnd5e/icons/svg/damage/slashing.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/slashing.svg",
     isPhysical: true,
     color: new Color(0x8B0000)
   },
   piercing: {
     label: "Stich",
-    icon: "systems/dnd5e/icons/svg/damage/piercing.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/piercing.svg",
     isPhysical: true,
     color: new Color(0xC0C0C0)
   },
   bludgeoning: {
     label: "Wucht",
-    icon: "systems/dnd5e/icons/svg/damage/bludgeoning.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/bludgeoning.svg",
     isPhysical: true,
     color: new Color(0x0000A0)
   },
   lightning: {
     label: "Blitz/Energie",
-    icon: "systems/dnd5e/icons/svg/damage/lightning.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/lightning.svg",
     color: new Color(0x1E90FF)
   },
   fire: {
     label: "Feuer",
-    icon: "systems/dnd5e/icons/svg/damage/fire.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/fire.svg",
     color: new Color(0xFF4500)
   },
   cold: {
     label: "Kälte",
-    icon: "systems/dnd5e/icons/svg/damage/cold.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/cold.svg",
     color: new Color(0xADD8E6)
   },
   acid: {
     label: "Säure",
-    icon: "systems/dnd5e/icons/svg/damage/acid.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/acid.svg",
     color: new Color(0x839D50)
   },
   poison: {
     label: "Gift",
-    icon: "systems/dnd5e/icons/svg/damage/poison.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/poison.svg",
     color: new Color(0x8A2BE2)
   },
   thunder: {
     label: "Schall",
-    icon: "systems/dnd5e/icons/svg/damage/thunder.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/thunder.svg",
     color: new Color(0x708090)
   },
   radiant: {
     label: "Gleißend",
-    icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/radiant.svg",
     color: new Color(0xFFD700)
   },
   sacred: {
     label: "Geheiligt",
-    icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/radiant.svg",
     color: new Color(0xFFFACD)
   },
   necrotic: {
     label: "Nekrotisch",
-    icon: "systems/dnd5e/icons/svg/damage/necrotic.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/necrotic.svg",
     color: new Color(0x006400)
   },
   psychic: {
     label: "Psychisch",
-    icon: "systems/dnd5e/icons/svg/damage/psychic.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/psychic.svg",
     color: new Color(0xFF1493)
   }
 };
@@ -2078,19 +2078,19 @@ DND5E.healingTypes = {
   healing: {
     label: "DND5E.HEAL.Type.Healing",
     labelShort: "DND5E.HEAL.Type.HealingShort",
-    icon: "systems/dnd5e/icons/svg/damage/healing.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/healing.svg",
     color: new Color(0x46C252)
   },
   temphp: {
     label: "DND5E.HEAL.Type.Temporary",
     labelShort: "DND5E.HEAL.Type.TemporaryShort",
-    icon: "systems/dnd5e/icons/svg/damage/temphp.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/temphp.svg",
     color: new Color(0x4B66DE)
   },
   maximum: {
     label: "DND5E.HEAL.Type.Maximum",
     labelShort: "DND5E.HEAL.Type.MaximumShort",
-    icon: "systems/dnd5e/icons/svg/damage/maxhp.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/damage/maxhp.svg",
     color: new Color(0x4BDEDE)
   }
 };
@@ -2429,15 +2429,15 @@ DND5E.encumbrance = {
   effects: {
     encumbered: {
       name: "EFFECT.DND5E.StatusEncumbered",
-      img: "systems/dnd5e/icons/svg/statuses/encumbered.svg"
+      img: "systems/ketsushin-salt-silver/icons/svg/statuses/encumbered.svg"
     },
     heavilyEncumbered: {
       name: "EFFECT.DND5E.StatusHeavilyEncumbered",
-      img: "systems/dnd5e/icons/svg/statuses/heavily-encumbered.svg"
+      img: "systems/ketsushin-salt-silver/icons/svg/statuses/heavily-encumbered.svg"
     },
     exceedingCarryingCapacity: {
       name: "EFFECT.DND5E.StatusExceedingCarryingCapacity",
-      img: "systems/dnd5e/icons/svg/statuses/exceeding-carrying-capacity.svg"
+      img: "systems/ketsushin-salt-silver/icons/svg/statuses/exceeding-carrying-capacity.svg"
     }
   },
   threshold: {
@@ -2848,7 +2848,7 @@ DND5E.spellcasting = {
     cantrips: true,
     prepares: true,
     order: 20,
-    img: "systems/dnd5e/icons/spell-tiers/{id}.webp",
+    img: "systems/ketsushin-salt-silver/icons/spell-tiers/{id}.webp",
     table: SPELL_SLOT_TABLE,
     progression: {
       full: {
@@ -3026,49 +3026,49 @@ preLocalize("spellScalingModes", { sort: true });
 DND5E.spellSchools = {
   abj: {
     label: "DND5E.SchoolAbj",
-    icon: "systems/dnd5e/icons/svg/schools/abjuration.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/abjuration.svg",
     fullKey: "abjuration",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.849AYEWw9FHD6JNz"
   },
   con: {
     label: "DND5E.SchoolCon",
-    icon: "systems/dnd5e/icons/svg/schools/conjuration.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/conjuration.svg",
     fullKey: "conjuration",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.TWyKMhZJZGqQ6uls"
   },
   div: {
     label: "DND5E.SchoolDiv",
-    icon: "systems/dnd5e/icons/svg/schools/divination.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/divination.svg",
     fullKey: "divination",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.HoD2MwzmVbMqj9se"
   },
   enc: {
     label: "DND5E.SchoolEnc",
-    icon: "systems/dnd5e/icons/svg/schools/enchantment.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/enchantment.svg",
     fullKey: "enchantment",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.SehPXk24ySBVOwCZ"
   },
   evo: {
     label: "DND5E.SchoolEvo",
-    icon: "systems/dnd5e/icons/svg/schools/evocation.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/evocation.svg",
     fullKey: "evocation",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.kGp1RNuxL2SELLRC"
   },
   ill: {
     label: "DND5E.SchoolIll",
-    icon: "systems/dnd5e/icons/svg/schools/illusion.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/illusion.svg",
     fullKey: "illusion",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.smEk7kvVyslFozrB"
   },
   nec: {
     label: "DND5E.SchoolNec",
-    icon: "systems/dnd5e/icons/svg/schools/necromancy.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/necromancy.svg",
     fullKey: "necromancy",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.W0eyiV1FBmngb6Qh"
   },
   trs: {
     label: "DND5E.SchoolTrs",
-    icon: "systems/dnd5e/icons/svg/schools/transmutation.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/schools/transmutation.svg",
     fullKey: "transmutation",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.IYWewSailtmv6qEb"
   }
@@ -3364,145 +3364,145 @@ DND5E.consumableResources = [
 DND5E.conditionTypes = {
   bleeding: {
     name: "EFFECT.DND5E.StatusBleeding",
-    img: "systems/dnd5e/icons/svg/statuses/bleeding.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/bleeding.svg",
     pseudo: true
   },
   blinded: {
     name: "DND5E.ConBlinded",
-    img: "systems/dnd5e/icons/svg/statuses/blinded.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/blinded.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.uDogReMO6QtH6NDw",
     special: "BLIND"
   },
   burning: {
     name: "EFFECT.DND5E.StatusBurning",
-    img: "systems/dnd5e/icons/svg/statuses/burning.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/burning.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.mPBGM1vguT5IPzxT",
     pseudo: true
   },
   charmed: {
     name: "DND5E.ConCharmed",
-    img: "systems/dnd5e/icons/svg/statuses/charmed.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/charmed.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.vLAsIUa0FhZNsyLk"
   },
   cursed: {
     name: "EFFECT.DND5E.StatusCursed",
-    img: "systems/dnd5e/icons/svg/statuses/cursed.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/cursed.svg",
     pseudo: true
   },
   dehydration: {
     name: "EFFECT.DND5E.StatusDehydration",
-    img: "systems/dnd5e/icons/svg/statuses/dehydration.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/dehydration.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.FZFvLNOX0lHaHZ1k",
     pseudo: true
   },
   deafened: {
     name: "DND5E.ConDeafened",
-    img: "systems/dnd5e/icons/svg/statuses/deafened.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/deafened.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.qlRw66tJhk0zLnwq"
   },
   diseased: {
     name: "DND5E.ConDiseased",
-    img: "systems/dnd5e/icons/svg/statuses/diseased.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/diseased.svg",
     pseudo: true,
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.oNQWvyRZkTOJ8PBq"
   },
   exhaustion: {
     name: "DND5E.ConExhaustion",
-    img: "systems/dnd5e/icons/svg/statuses/exhaustion.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/exhaustion.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3",
     levels: 6,
     reduction: { rolls: 2, speed: 5 }
   },
   falling: {
     name: "EFFECT.DND5E.StatusFalling",
-    img: "systems/dnd5e/icons/svg/statuses/falling.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/falling.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.kREHL5pgNUOhay9f",
     pseudo: true
   },
   frightened: {
     name: "DND5E.ConFrightened",
-    img: "systems/dnd5e/icons/svg/statuses/frightened.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/frightened.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.93uaingTESo8N1qL"
   },
   grappled: {
     name: "DND5E.ConGrappled",
-    img: "systems/dnd5e/icons/svg/statuses/grappled.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/grappled.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.KbQ1k0OIowtZeQgp"
   },
   incapacitated: {
     name: "DND5E.ConIncapacitated",
-    img: "systems/dnd5e/icons/svg/statuses/incapacitated.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/incapacitated.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.4i3G895hy99piand",
     neverBlockMovement: true
   },
   invisible: {
     name: "DND5E.ConInvisible",
-    img: "systems/dnd5e/icons/svg/statuses/invisible.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/invisible.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN"
   },
   malnutrition: {
     name: "EFFECT.DND5E.StatusMalnutrition",
-    img: "systems/dnd5e/icons/svg/statuses/malnutrition.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/malnutrition.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.earBo4vQPC1ti4g7",
     pseudo: true
   },
   paralyzed: {
     name: "DND5E.ConParalyzed",
-    img: "systems/dnd5e/icons/svg/statuses/paralyzed.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/paralyzed.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.RnxZoTglPnLc6UPb",
     statuses: ["incapacitated"]
   },
   petrified: {
     name: "DND5E.ConPetrified",
-    img: "systems/dnd5e/icons/svg/statuses/petrified.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/petrified.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.6vtLuQT9lwZ9N299",
     statuses: ["incapacitated"]
   },
   poisoned: {
     name: "DND5E.ConPoisoned",
-    img: "systems/dnd5e/icons/svg/statuses/poisoned.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/poisoned.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.HWs8kEojffqwTSJz"
   },
   prone: {
     name: "DND5E.ConProne",
-    img: "systems/dnd5e/icons/svg/statuses/prone.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/prone.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.QxCrRcgMdUd3gfzz"
   },
   restrained: {
     name: "DND5E.ConRestrained",
-    img: "systems/dnd5e/icons/svg/statuses/restrained.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/restrained.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.dqLeGdpHtb8FfcxX"
   },
   silenced: {
     name: "EFFECT.DND5E.StatusSilenced",
-    img: "systems/dnd5e/icons/svg/statuses/silenced.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/silenced.svg",
     pseudo: true
   },
   stunned: {
     name: "DND5E.ConStunned",
-    img: "systems/dnd5e/icons/svg/statuses/stunned.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/stunned.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.EjbXjvyQAMlDyANI",
     statuses: ["incapacitated"]
   },
   suffocation: {
     name: "EFFECT.DND5E.StatusSuffocation",
-    img: "systems/dnd5e/icons/svg/statuses/suffocation.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/suffocation.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.gAvV8TLyS8UGq00x",
     pseudo: true
   },
   surprised: {
     name: "EFFECT.DND5E.StatusSurprised",
-    img: "systems/dnd5e/icons/svg/statuses/surprised.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/surprised.svg",
     pseudo: true
   },
   transformed: {
     name: "EFFECT.DND5E.StatusTransformed",
-    img: "systems/dnd5e/icons/svg/statuses/transformed.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/transformed.svg",
     pseudo: true
   },
   unconscious: {
     name: "DND5E.ConUnconscious",
-    img: "systems/dnd5e/icons/svg/statuses/unconscious.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/unconscious.svg",
     reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.fZCRaKEJd4KoQCqH",
     statuses: ["incapacitated"],
     riders: ["prone"]
@@ -3543,76 +3543,76 @@ DND5E.conditionEffects = {
 DND5E.statusEffects = {
   burrowing: {
     name: "EFFECT.DND5E.StatusBurrowing",
-    img: "systems/dnd5e/icons/svg/statuses/burrowing.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/burrowing.svg",
     special: "BURROW"
   },
   concentrating: {
     name: "EFFECT.DND5E.StatusConcentrating",
-    img: "systems/dnd5e/icons/svg/statuses/concentrating.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/concentrating.svg",
     special: "CONCENTRATING"
   },
   coverHalf: {
     name: "EFFECT.DND5E.StatusHalfCover",
-    img: "systems/dnd5e/icons/svg/statuses/cover-half.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/cover-half.svg",
     order: 2,
     exclusiveGroup: "cover",
     coverBonus: 2
   },
   coverThreeQuarters: {
     name: "EFFECT.DND5E.StatusThreeQuartersCover",
-    img: "systems/dnd5e/icons/svg/statuses/cover-three-quarters.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/cover-three-quarters.svg",
     order: 3,
     exclusiveGroup: "cover",
     coverBonus: 5
   },
   coverTotal: {
     name: "EFFECT.DND5E.StatusTotalCover",
-    img: "systems/dnd5e/icons/svg/statuses/cover-total.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/cover-total.svg",
     order: 4,
     exclusiveGroup: "cover"
   },
   dead: {
     name: "EFFECT.DND5E.StatusDead",
-    img: "systems/dnd5e/icons/svg/statuses/dead.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/dead.svg",
     special: "DEFEATED",
     order: 1,
     neverBlockMovement: true
   },
   dodging: {
     name: "EFFECT.DND5E.StatusDodging",
-    img: "systems/dnd5e/icons/svg/statuses/dodging.svg"
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/dodging.svg"
   },
   ethereal: {
     name: "EFFECT.DND5E.StatusEthereal",
-    img: "systems/dnd5e/icons/svg/statuses/ethereal.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/ethereal.svg",
     neverBlockMovement: true
   },
   flying: {
     name: "EFFECT.DND5E.StatusFlying",
-    img: "systems/dnd5e/icons/svg/statuses/flying.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/flying.svg",
     special: "FLY"
   },
   hiding: {
     name: "EFFECT.DND5E.StatusHiding",
-    img: "systems/dnd5e/icons/svg/statuses/hiding.svg"
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/hiding.svg"
   },
   hovering: {
     name: "EFFECT.DND5E.StatusHovering",
-    img: "systems/dnd5e/icons/svg/statuses/hovering.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/hovering.svg",
     special: "HOVER"
   },
   marked: {
     name: "EFFECT.DND5E.StatusMarked",
-    img: "systems/dnd5e/icons/svg/statuses/marked.svg"
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/marked.svg"
   },
   sleeping: {
     name: "EFFECT.DND5E.StatusSleeping",
-    img: "systems/dnd5e/icons/svg/statuses/sleeping.svg",
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/sleeping.svg",
     statuses: ["incapacitated", "unconscious"]
   },
   stable: {
     name: "EFFECT.DND5E.StatusStable",
-    img: "systems/dnd5e/icons/svg/statuses/stable.svg"
+    img: "systems/ketsushin-salt-silver/icons/svg/statuses/stable.svg"
   }
 };
 
@@ -3632,7 +3632,7 @@ DND5E.neverBlockStatuses = new Set();
  */
 DND5E.bloodied = {
   name: "EFFECT.DND5E.StatusBloodied",
-  img: "systems/dnd5e/icons/svg/statuses/bloodied.svg",
+  img: "systems/ketsushin-salt-silver/icons/svg/statuses/bloodied.svg",
   threshold: .5
 };
 
@@ -3909,7 +3909,7 @@ DND5E.traits = {
       localization: "DND5E.TraitDIPlural",
       all: "DND5E.DAMAGE.All"
     },
-    icon: "systems/dnd5e/icons/svg/trait-damage-immunities.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/trait-damage-immunities.svg",
     configKey: "damageTypes"
   },
   dr: {
@@ -3918,7 +3918,7 @@ DND5E.traits = {
       localization: "DND5E.TraitDRPlural",
       all: "DND5E.DAMAGE.All"
     },
-    icon: "systems/dnd5e/icons/svg/trait-damage-resistances.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/trait-damage-resistances.svg",
     configKey: "damageTypes"
   },
   dv: {
@@ -3927,7 +3927,7 @@ DND5E.traits = {
       localization: "DND5E.TraitDVPlural",
       all: "DND5E.DAMAGE.All"
     },
-    icon: "systems/dnd5e/icons/svg/trait-damage-vulnerabilities.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/trait-damage-vulnerabilities.svg",
     configKey: "damageTypes"
   },
   dm: {
@@ -3944,7 +3944,7 @@ DND5E.traits = {
       title: "DND5E.ConImm",
       localization: "DND5E.TraitCIPlural"
     },
-    icon: "systems/dnd5e/icons/svg/trait-condition-immunities.svg",
+    icon: "systems/ketsushin-salt-silver/icons/svg/trait-condition-immunities.svg",
     configKey: "conditionTypes",
     labelKeyPath: "name"
   }
@@ -4202,30 +4202,30 @@ DND5E.advancementTypes = {
  */
 DND5E.defaultArtwork = {
   ActiveEffect: {
-    base: "systems/dnd5e/icons/svg/active-effects/base.svg",
-    enchantment: "systems/dnd5e/icons/svg/active-effects/enchantment.svg"
+    base: "systems/ketsushin-salt-silver/icons/svg/active-effects/base.svg",
+    enchantment: "systems/ketsushin-salt-silver/icons/svg/active-effects/enchantment.svg"
   },
   Actor: {
-    character: "systems/dnd5e/icons/svg/actors/character.svg",
-    encounter: "systems/dnd5e/icons/svg/actors/encounter.svg",
-    group: "systems/dnd5e/icons/svg/actors/group.svg",
-    npc: "systems/dnd5e/icons/svg/actors/npc.svg",
-    vehicle: "systems/dnd5e/icons/svg/actors/vehicle.svg"
+    character: "systems/ketsushin-salt-silver/icons/svg/actors/character.svg",
+    encounter: "systems/ketsushin-salt-silver/icons/svg/actors/encounter.svg",
+    group: "systems/ketsushin-salt-silver/icons/svg/actors/group.svg",
+    npc: "systems/ketsushin-salt-silver/icons/svg/actors/npc.svg",
+    vehicle: "systems/ketsushin-salt-silver/icons/svg/actors/vehicle.svg"
   },
   Item: {
-    background: "systems/dnd5e/icons/svg/items/background.svg",
-    class: "systems/dnd5e/icons/svg/items/class.svg",
-    consumable: "systems/dnd5e/icons/svg/items/consumable.svg",
-    container: "systems/dnd5e/icons/svg/items/container.svg",
-    equipment: "systems/dnd5e/icons/svg/items/equipment.svg",
-    facility: "systems/dnd5e/icons/svg/items/facility.svg",
-    feat: "systems/dnd5e/icons/svg/items/feature.svg",
-    loot: "systems/dnd5e/icons/svg/items/loot.svg",
-    race: "systems/dnd5e/icons/svg/items/race.svg",
-    spell: "systems/dnd5e/icons/svg/items/spell.svg",
-    subclass: "systems/dnd5e/icons/svg/items/subclass.svg",
-    tool: "systems/dnd5e/icons/svg/items/tool.svg",
-    weapon: "systems/dnd5e/icons/svg/items/weapon.svg"
+    background: "systems/ketsushin-salt-silver/icons/svg/items/background.svg",
+    class: "systems/ketsushin-salt-silver/icons/svg/items/class.svg",
+    consumable: "systems/ketsushin-salt-silver/icons/svg/items/consumable.svg",
+    container: "systems/ketsushin-salt-silver/icons/svg/items/container.svg",
+    equipment: "systems/ketsushin-salt-silver/icons/svg/items/equipment.svg",
+    facility: "systems/ketsushin-salt-silver/icons/svg/items/facility.svg",
+    feat: "systems/ketsushin-salt-silver/icons/svg/items/feature.svg",
+    loot: "systems/ketsushin-salt-silver/icons/svg/items/loot.svg",
+    race: "systems/ketsushin-salt-silver/icons/svg/items/race.svg",
+    spell: "systems/ketsushin-salt-silver/icons/svg/items/spell.svg",
+    subclass: "systems/ketsushin-salt-silver/icons/svg/items/subclass.svg",
+    tool: "systems/ketsushin-salt-silver/icons/svg/items/tool.svg",
+    weapon: "systems/ketsushin-salt-silver/icons/svg/items/weapon.svg"
   }
 };
 

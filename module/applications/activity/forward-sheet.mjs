@@ -16,13 +16,13 @@ export default class ForwardSheet extends ActivitySheet {
   static PARTS = {
     ...super.PARTS,
     activation: {
-      template: "systems/dnd5e/templates/activity/forward-activation.hbs",
+      template: "systems/ketsushin-salt-silver/templates/activity/forward-activation.hbs",
       templates: [
-        "systems/dnd5e/templates/activity/parts/activity-consumption.hbs"
+        "systems/ketsushin-salt-silver/templates/activity/parts/activity-consumption.hbs"
       ]
     },
     effect: {
-      template: "systems/dnd5e/templates/activity/forward-effect.hbs"
+      template: "systems/ketsushin-salt-silver/templates/activity/forward-effect.hbs"
     }
   };
 

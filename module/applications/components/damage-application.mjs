@@ -134,7 +134,7 @@ export default class DamageApplicationElement extends TargetedApplicationMixin(C
       if ( foundry.utils.getType(values) !== "Set" ) continue;
       for ( const type of values ) {
         if ( type === "ALL" ) {
-          types.push({ type, change, icon: "systems/dnd5e/icons/svg/damage/all.svg" });
+          types.push({ type, change, icon: "systems/ketsushin-salt-silver/icons/svg/damage/all.svg" });
         } else {
           const config = CONFIG.DND5E.damageTypes[type] ?? CONFIG.DND5E.healingTypes[type];
           if ( !config ) continue;
@@ -305,7 +305,7 @@ export default class DamageApplicationElement extends TargetedApplicationMixin(C
     if ( thresholdButton && !active.threshold ) thresholdButton.remove();
     else if ( !thresholdButton && active.threshold ) {
       const button = this.getChangeSourceButton({
-        change: "threshold", icon: "systems/dnd5e/icons/svg/damage/threshold.svg", type: "threshold"
+        change: "threshold", icon: "systems/ketsushin-salt-silver/icons/svg/damage/threshold.svg", type: "threshold"
       }, this.getTargetOptions(entry.dataset.uuid));
       entry.querySelector(".subtitle").insertAdjacentHTML("beforeend", button);
     }

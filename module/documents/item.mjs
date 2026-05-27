@@ -35,7 +35,7 @@ const TextEditor = foundry.applications.ux.TextEditor.implementation;
 export default class Item5e extends SystemDocumentMixin(Item) {
 
   /** @override */
-  static DEFAULT_ICON = "systems/dnd5e/icons/svg/documents/item.svg";
+  static DEFAULT_ICON = "systems/ketsushin-salt-silver/icons/svg/documents/item.svg";
 
   /* -------------------------------------------- */
 
@@ -749,7 +749,7 @@ export default class Item5e extends SystemDocumentMixin(Item) {
       create: message?.createMessage ?? true,
       data: {
         content: await foundry.applications.handlebars.renderTemplate(
-          "systems/dnd5e/templates/chat/item-card.hbs", context
+          "systems/ketsushin-salt-silver/templates/chat/item-card.hbs", context
         ),
         flags: {
           "dnd5e.item": { id: this.id, uuid: this.uuid, type: this.type }

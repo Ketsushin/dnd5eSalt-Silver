@@ -24,7 +24,7 @@ export default class ItemGrantAdvancement extends Advancement {
       },
       order: 40,
       icon: "icons/sundries/books/book-open-purple.webp",
-      typeIcon: "systems/dnd5e/icons/svg/item-grant.svg",
+      typeIcon: "systems/ketsushin-salt-silver/icons/svg/item-grant.svg",
       title: game.i18n.localize("DND5E.ADVANCEMENT.ItemGrant.Title"),
       hint: game.i18n.localize("DND5E.ADVANCEMENT.ItemGrant.Hint"),
       apps: {

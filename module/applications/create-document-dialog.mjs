@@ -26,7 +26,7 @@ export default class CreateDocumentDialog extends Dialog5e {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/apps/document-create.hbs"
+      template: "systems/ketsushin-salt-silver/templates/apps/document-create.hbs"
     }
   };
 

@@ -27,30 +27,30 @@ export default class GroupActorSheet extends MultiActorSheet {
   /** @override */
   static PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/group/header.hbs"
+      template: "systems/ketsushin-salt-silver/templates/actors/group/header.hbs"
     },
     tabs: {
-      template: "systems/dnd5e/templates/shared/horizontal-tabs.hbs",
+      template: "systems/ketsushin-salt-silver/templates/shared/horizontal-tabs.hbs",
       templates: ["templates/generic/tab-navigation.hbs"]
     },
     members: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/group/members.hbs",
-      templates: ["systems/dnd5e/templates/actors/group/member.hbs"],
+      template: "systems/ketsushin-salt-silver/templates/actors/group/members.hbs",
+      templates: ["systems/ketsushin-salt-silver/templates/actors/group/member.hbs"],
       scrollable: [""]
     },
     inventory: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/group/inventory.hbs",
+      template: "systems/ketsushin-salt-silver/templates/actors/group/inventory.hbs",
       templates: [
-        "systems/dnd5e/templates/inventory/inventory.hbs", "systems/dnd5e/templates/inventory/activity.hbs",
-        "systems/dnd5e/templates/inventory/containers.hbs", "systems/dnd5e/templates/inventory/encumbrance.hbs"
+        "systems/ketsushin-salt-silver/templates/inventory/inventory.hbs", "systems/ketsushin-salt-silver/templates/inventory/activity.hbs",
+        "systems/ketsushin-salt-silver/templates/inventory/containers.hbs", "systems/ketsushin-salt-silver/templates/inventory/encumbrance.hbs"
       ],
       scrollable: [".sidebar", ".body"]
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/group/biography.hbs",
+      template: "systems/ketsushin-salt-silver/templates/actors/group/biography.hbs",
       scrollable: [""]
     }
   };

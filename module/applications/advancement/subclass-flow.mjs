@@ -21,7 +21,7 @@ export default class SubclassFlow extends AdvancementFlow {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/advancement/subclass-flow.hbs"
+      template: "systems/ketsushin-salt-silver/templates/advancement/subclass-flow.hbs"
     }
   };
 

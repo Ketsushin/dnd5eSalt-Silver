@@ -23,7 +23,7 @@ export default class ShortRestDialog extends BaseRestDialog {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/actors/rest/short-rest.hbs"
+      template: "systems/ketsushin-salt-silver/templates/actors/rest/short-rest.hbs"
     }
   };
 

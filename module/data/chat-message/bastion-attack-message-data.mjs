@@ -34,7 +34,7 @@ export default class BastionAttackMessageData extends ChatMessageDataModel {
     actions: {
       resolve: BastionAttackMessageData.#onResolve
     },
-    template: "systems/dnd5e/templates/chat/bastion-attack-summary.hbs"
+    template: "systems/ketsushin-salt-silver/templates/chat/bastion-attack-summary.hbs"
   }, { inplace: false }));
 
   /* -------------------------------------------- */

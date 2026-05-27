@@ -18,7 +18,7 @@ export default class RotateAreaConfig extends foundry.applications.sheets.Region
   /** @override */
   static PARTS = {
     form: {
-      template: "systems/dnd5e/templates/region-behaviors/rotate-area-config.hbs",
+      template: "systems/ketsushin-salt-silver/templates/region-behaviors/rotate-area-config.hbs",
       scrollable: [""]
     },
     footer: {

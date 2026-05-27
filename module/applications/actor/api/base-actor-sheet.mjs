@@ -101,11 +101,11 @@ export default class BaseActorSheet extends PrimarySheetMixin(
    */
   static LIMITED_PARTS = {
     header: {
-      template: "systems/dnd5e/templates/actors/limited-header.hbs"
+      template: "systems/ketsushin-salt-silver/templates/actors/limited-header.hbs"
     },
     biography: {
       container: { classes: ["tab-body"], id: "tabs" },
-      template: "systems/dnd5e/templates/actors/limited-body.hbs",
+      template: "systems/ketsushin-salt-silver/templates/actors/limited-body.hbs",
       scrollable: [""]
     }
   };
@@ -1067,7 +1067,7 @@ export default class BaseActorSheet extends PrimarySheetMixin(
         const button = document.createElement("button");
         Object.assign(button, { type: "button", className: classes, ariaLabel: label, ariaPressed: filled });
         Object.assign(button.dataset, { n, tooltip, action: "togglePip" });
-        const icon = '<dnd5e-icon src="systems/dnd5e/icons/svg/spell-slot.svg"></dnd5e-icon>';
+        const icon = '<dnd5e-icon src="systems/ketsushin-salt-silver/icons/svg/spell-slot.svg"></dnd5e-icon>';
         button.insertAdjacentHTML("afterbegin", icon);
         slots.append(button);
       });

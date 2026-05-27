@@ -32,8 +32,8 @@ export default class BaseRestDialog extends Dialog5e {
       width: 380
     },
     templates: [
-      "systems/dnd5e/templates/actors/rest/parts/hit-dice.hbs",
-      "systems/dnd5e/templates/actors/rest/parts/rest-request.hbs"
+      "systems/ketsushin-salt-silver/templates/actors/rest/parts/hit-dice.hbs",
+      "systems/ketsushin-salt-silver/templates/actors/rest/parts/rest-request.hbs"
     ]
   };
 
@@ -43,7 +43,7 @@ export default class BaseRestDialog extends Dialog5e {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/actors/rest/base-rest.hbs"
+      template: "systems/ketsushin-salt-silver/templates/actors/rest/base-rest.hbs"
     }
   };
 

@@ -34,7 +34,7 @@ export default class UsageMessageData extends ChatMessageDataModel {
 
   /** @inheritDoc */
   static metadata = Object.freeze(foundry.utils.mergeObject(super.metadata, {
-    template: "systems/dnd5e/templates/chat/usage-card.hbs"
+    template: "systems/ketsushin-salt-silver/templates/chat/usage-card.hbs"
   }, { inplace: false }));
 
   /* -------------------------------------------- */

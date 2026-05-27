@@ -21,7 +21,7 @@ export default class ItemChoiceFlow extends ItemGrantFlow {
   static PARTS = {
     ...super.PARTS,
     content: {
-      template: "systems/dnd5e/templates/advancement/item-choice-flow.hbs"
+      template: "systems/ketsushin-salt-silver/templates/advancement/item-choice-flow.hbs"
     }
   };
 

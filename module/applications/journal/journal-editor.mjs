@@ -34,7 +34,7 @@ export default class JournalEditor extends DocumentSheet5e {
   /** @override */
   static PARTS = {
     editor: {
-      template: "systems/dnd5e/templates/journal/journal-editor.hbs"
+      template: "systems/ketsushin-salt-silver/templates/journal/journal-editor.hbs"
     }
   };
 

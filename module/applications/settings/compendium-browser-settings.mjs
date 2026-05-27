@@ -44,11 +44,11 @@ export default class CompendiumBrowserSettingsConfig extends Application5e {
   static PARTS = {
     sidebar: {
       id: "sidebar",
-      template: "systems/dnd5e/templates/compendium/sources-sidebar.hbs"
+      template: "systems/ketsushin-salt-silver/templates/compendium/sources-sidebar.hbs"
     },
     packs: {
       id: "packs",
-      template: "systems/dnd5e/templates/compendium/sources-packs.hbs"
+      template: "systems/ketsushin-salt-silver/templates/compendium/sources-packs.hbs"
     }
   };
 

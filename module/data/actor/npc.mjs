@@ -580,7 +580,7 @@ export default class NPCData extends CreatureTemplate {
     }
     const template = document.createElement("template");
     template.innerHTML = await foundry.applications.handlebars.renderTemplate(
-      "systems/dnd5e/templates/actors/embeds/npc-embed.hbs", context
+      "systems/ketsushin-salt-silver/templates/actors/embeds/npc-embed.hbs", context
     );
 
     /**

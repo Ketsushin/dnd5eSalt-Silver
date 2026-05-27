@@ -21,7 +21,7 @@ export default class TraitsConfig extends BaseConfigSheet {
   /** @override */
   static PARTS = {
     traits: {
-      template: "systems/dnd5e/templates/actors/config/traits-config.hbs"
+      template: "systems/ketsushin-salt-silver/templates/actors/config/traits-config.hbs"
     }
   };
 
