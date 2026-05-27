@@ -129,7 +129,7 @@ export default class CharacterActorSheet extends BaseActorSheet {
     { tab: "details", label: "DND5E.Details", icon: "fas fa-cog" },
     { tab: "inventory", label: "DND5E.Inventory", svg: "systems/dnd5e/icons/svg/backpack.svg" },
     { tab: "features", label: "DND5E.Features", icon: "fas fa-list" },
-    { tab: "spells", label: "TYPES.Item.spellPl", icon: "fas fa-book" },
+    { tab: "spells", label: "DND5E.Spellbook", icon: "fas fa-book" },
     { tab: "effects", label: "DND5E.Effects", icon: "fas fa-bolt" },
     { tab: "biography", label: "DND5E.Biography", icon: "fas fa-feather" },
     { tab: "bastion", label: "DND5E.Bastion.Label", icon: "fas fa-chess-rook", condition: this.hasBastion },
@@ -146,6 +146,15 @@ export default class CharacterActorSheet extends BaseActorSheet {
    * @protected
    */
   _deathTrayOpen = false;
+
+  /* -------------------------------------------- */
+
+  /**
+   * Whether the inventory tab shows the wallet (true) or bank (false).
+   * @type {boolean}
+   * @protected
+   */
+  _walletMode = true;
 
   /* -------------------------------------------- */
 
@@ -511,6 +520,13 @@ export default class CharacterActorSheet extends BaseActorSheet {
       abbr: CONFIG.DND5E.actorSizes[this.actor.system.traits.size]?.abbreviation ?? "—",
       mod: this.actor.system.attributes.encumbrance.mod
     };
+    // Wallet / Bank toggle
+    context.hasBankAccount = true;
+    context.walletMode = this._walletMode;
+    context.currencyAccount = this._walletMode ? "currency" : "bank";
+    context.currency = Object.fromEntries(
+      Object.keys(CONFIG.DND5E.currencies).map(k => [k, this.inventorySource.system._source[context.currencyAccount]?.[k] ?? 0])
+    );
     return context;
   }
 
@@ -905,6 +921,14 @@ export default class CharacterActorSheet extends BaseActorSheet {
       this.element, ".containers [data-item-id]", [],
       { onOpen: (...args) => featuresElement._onOpenContextMenu(...args), jQuery: false }
     );
+
+    // Wallet / Bank toggle — intercept the inventory custom event that bubbles from the inventory element
+    this.element.addEventListener("inventory", event => {
+      if ( event.detail !== "toggleBank" ) return;
+      event.preventDefault();
+      this._walletMode = !this._walletMode;
+      this.render({ parts: ["inventory"] });
+    });
   }
 
   /* -------------------------------------------- */

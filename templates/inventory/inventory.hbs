@@ -9,11 +9,18 @@
             <i class="fa-solid fa-coins" inert></i>
         </button>
         {{/unless}}
+        {{#if @root.hasBankAccount}}
+        <button type="button" class="item-action unbutton always-interactive" data-action="toggleBank"
+                data-tooltip="{{#if @root.walletMode}}Bank anzeigen{{else}}Geldbörse anzeigen{{/if}}"
+                aria-label="{{#if @root.walletMode}}Bank{{else}}Geldbörse{{/if}}">
+            <i class="fa-solid {{#if @root.walletMode}}fa-building-columns{{else}}fa-wallet{{/if}}" inert></i>
+        </button>
+        {{/if}}
         {{#each currency}}
         {{#with (lookup @root.config.currencies @key) as |currency|}}
         <label aria-label="{{ lookup currency 'label' }}">
             <i class="currency {{ @key }}" data-tooltip="{{ lookup currency "label" }}"></i>
-            <input type="text" class="uninput always-interactive" name="system.currency.{{ @key }}"
+            <input type="text" class="uninput always-interactive" name="system.{{ @root.currencyAccount }}.{{ @key }}"
                    value="{{ ../this }}" data-dtype="Number" inputmode="numeric" pattern="^[+=\-]?\d*"
                    {{#if @root.locked}}readonly{{/if}}>
         </label>

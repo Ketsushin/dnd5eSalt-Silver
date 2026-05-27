@@ -8,10 +8,12 @@ import MappingField from "../fields/mapping-field.mjs";
 export default class CurrencyTemplate extends SystemDataModel {
   /** @inheritDoc */
   static defineSchema() {
+    const currencyField = () => new MappingField(new foundry.data.fields.NumberField({
+      required: true, nullable: false, integer: true, min: 0, initial: 0
+    }), {initialKeys: CONFIG.DND5E.currencies, initialKeysOnly: true, label: "DND5E.Currency"});
     return {
-      currency: new MappingField(new foundry.data.fields.NumberField({
-        required: true, nullable: false, integer: true, min: 0, initial: 0
-      }), {initialKeys: CONFIG.DND5E.currencies, initialKeysOnly: true, label: "DND5E.Currency"})
+      currency: currencyField(),
+      bank: currencyField()
     };
   }
 

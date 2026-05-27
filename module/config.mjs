@@ -161,137 +161,97 @@ DND5E.maxAbilityScore = 20;
  */
 DND5E.skills = {
   acr: {
-    label: "DND5E.SkillAcr",
+    label: "Akrobatik",
     ability: "dex",
-    fullKey: "acrobatics",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.AvvBLEHNl7kuwPkN",
     icon: "icons/equipment/feet/shoes-simple-leaf-green.webp"
   },
-  ani: {
-    label: "DND5E.SkillAni",
-    ability: "wis",
-    fullKey: "animalHandling",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xb3MCjUvopOU4viE",
-    icon: "icons/environment/creatures/horse-brown.webp"
-  },
-  arc: {
-    label: "DND5E.SkillArc",
-    ability: "int",
-    fullKey: "arcana",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.h3bYSPge8IOqne1N",
-    icon: "icons/sundries/books/book-embossed-jewel-silver-green.webp"
-  },
   ath: {
-    label: "DND5E.SkillAth",
+    label: "Athletik",
     ability: "str",
-    fullKey: "athletics",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.rIR7ttYDUpH3tMzv",
     icon: "icons/magic/control/buff-strength-muscle-damage-orange.webp"
   },
-  dec: {
-    label: "DND5E.SkillDec",
-    ability: "cha",
-    fullKey: "deception",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.mqVZ2fz0L7a9VeKJ",
-    icon: "icons/magic/control/mouth-smile-deception-purple.webp"
-  },
-  his: {
-    label: "DND5E.SkillHis",
-    ability: "int",
-    fullKey: "history",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.kRBZbdWMGW9K3wdY",
-    icon: "icons/sundries/books/book-embossed-bound-brown.webp"
-  },
-  ins: {
-    label: "DND5E.SkillIns",
-    ability: "wis",
-    fullKey: "insight",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.8R5SMbAGbECNgO8z",
-    icon: "icons/magic/perception/orb-crystal-ball-scrying-blue.webp"
-  },
-  itm: {
-    label: "DND5E.SkillItm",
-    ability: "cha",
-    fullKey: "intimidation",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.4VHHI2gJ1jEsppfg",
-    icon: "icons/skills/social/intimidation-impressing.webp"
-  },
-  inv: {
-    label: "DND5E.SkillInv",
-    ability: "int",
-    fullKey: "investigation",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.Y7nmbQAruWOs7WRM",
-    icon: "icons/tools/scribal/magnifying-glass.webp"
-  },
-  med: {
-    label: "DND5E.SkillMed",
-    ability: "wis",
-    fullKey: "medicine",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.GeYmM7BVfSCAga4o",
-    icon: "icons/tools/cooking/mortar-herbs-yellow.webp"
-  },
-  nat: {
-    label: "DND5E.SkillNat",
-    ability: "int",
-    fullKey: "nature",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.ueMx3uF2PQlcye31",
-    icon: "icons/magic/nature/plant-sprout-snow-green.webp"
-  },
-  prc: {
-    label: "DND5E.SkillPrc",
-    ability: "wis",
-    fullKey: "perception",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.zjEeHCUqfuprfzhY",
-    icon: "icons/magic/perception/eye-ringed-green.webp",
-    pace: {
-      advantage: new Set(["slow"]),
-      disadvantage: new Set(["fast"])
-    }
-  },
   prf: {
-    label: "DND5E.SkillPrf",
+    label: "Auftreten",
     ability: "cha",
-    fullKey: "performance",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.hYT7Z06yDNBcMtGe",
     icon: "icons/tools/instruments/lute-gold-brown.webp"
   },
-  per: {
-    label: "DND5E.SkillPer",
+  itm: {
+    label: "Einschüchtern",
     ability: "cha",
-    fullKey: "persuasion",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.4R5H8iIsdFQTsj3X",
-    icon: "icons/skills/social/diplomacy-handshake.webp"
+    icon: "icons/skills/social/intimidation-impressing.webp"
   },
-  rel: {
-    label: "DND5E.SkillRel",
-    ability: "int",
-    fullKey: "religion",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.CXVzERHdP4qLhJXM",
-    icon: "icons/magic/holy/saint-glass-portrait-halo.webp"
+  exp: {
+    label: "Erkunden",
+    ability: "wis",
+    icon: "icons/environment/wilderness/terrain-mountains.webp"
   },
   slt: {
-    label: "DND5E.SkillSlt",
+    label: "Fingerfertigkeit",
     ability: "dex",
-    fullKey: "sleightOfHand",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.yg6SRpGNVz9nDW0A",
     icon: "icons/sundries/gaming/playing-cards.webp"
   },
   ste: {
-    label: "DND5E.SkillSte",
+    label: "Heimlichkeit",
     ability: "dex",
-    fullKey: "stealth",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.4MfrpERNiQXmvgCI",
     icon: "icons/magic/perception/shadow-stealth-eyes-purple.webp",
     pace: {
       disadvantage: new Set(["normal", "fast"])
     }
   },
-  sur: {
-    label: "DND5E.SkillSur",
+  hun: {
+    label: "Jagen",
     ability: "wis",
-    fullKey: "survival",
-    reference: "Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.t3EzDU5b9BVAIEVi",
-    icon: "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
+    icon: "icons/magic/fire/flame-burning-campfire-yellow-blue.webp"
+  },
+  med: {
+    label: "Medizin",
+    ability: "wis",
+    icon: "icons/tools/cooking/mortar-herbs-yellow.webp"
+  },
+  ins: {
+    label: "Motiv erkennen",
+    ability: "wis",
+    icon: "icons/magic/perception/orb-crystal-ball-scrying-blue.webp"
+  },
+  inv: {
+    label: "Nachforschungen",
+    ability: "int",
+    icon: "icons/tools/scribal/magnifying-glass.webp"
+  },
+  nat: {
+    label: "Naturkunde",
+    ability: "int",
+    icon: "icons/magic/nature/plant-sprout-snow-green.webp"
+  },
+  his: {
+    label: "Alte Geschichte",
+    ability: "int",
+    icon: "icons/sundries/books/book-embossed-bound-brown.webp"
+  },
+  puz: {
+    label: "Rätsel",
+    ability: "int",
+    icon: "icons/sundries/gaming/chess-pawn-white.webp"
+  },
+  dec: {
+    label: "Täuschen",
+    ability: "cha",
+    icon: "icons/magic/control/mouth-smile-deception-purple.webp"
+  },
+  trv: {
+    label: "Reisen",
+    ability: "con",
+    icon: "icons/equipment/feet/boots-weathered-brown.webp"
+  },
+  per: {
+    label: "Überzeugen",
+    ability: "cha",
+    icon: "icons/skills/social/diplomacy-handshake.webp"
+  },
+  prc: {
+    label: "Wahrnehmung",
+    ability: "wis",
+    icon: "icons/magic/perception/eye-ringed-green.webp",
     pace: {
       advantage: new Set(["slow"]),
       disadvantage: new Set(["fast"])
@@ -352,13 +312,10 @@ preLocalize("attunementTypes");
  * @enum {string}
  */
 DND5E.weaponTypes = {
-  simpleM: "DND5E.WeaponSimpleM",
-  simpleR: "DND5E.WeaponSimpleR",
-  martialM: "DND5E.WeaponMartialM",
-  martialR: "DND5E.WeaponMartialR",
-  natural: "DND5E.WeaponNatural",
-  improv: "DND5E.WeaponImprov",
-  siege: "DND5E.WeaponSiege"
+  simpleM: "Leichte Nahkampfwaffe",
+  simpleR: "Leichte Fernkampfwaffe",
+  martialM: "Schwere Nahkampfwaffe",
+  martialR: "Schwere Fernkampfwaffe"
 };
 preLocalize("weaponTypes");
 
@@ -369,8 +326,8 @@ preLocalize("weaponTypes");
  * @enum {string}
  */
 DND5E.weaponProficiencies = {
-  sim: "DND5E.WeaponSimpleProficiency",
-  mar: "DND5E.WeaponMartialProficiency"
+  sim: "Leichte Waffen",
+  mar: "Schwere Waffen"
 };
 preLocalize("weaponProficiencies");
 
@@ -460,45 +417,33 @@ DND5E.weaponTypeMap = {
  * starting equipment provided by classes and backgrounds.
  * @enum {string}
  */
+// Leichte Waffen (Simple)
 DND5E.weaponIds = {
-  battleaxe: "Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0",
-  blowgun: "Compendium.dnd5e.equipment24.Item.phbwepBlowgun000",
-  club: "Compendium.dnd5e.equipment24.Item.phbwepClub000000",
-  dagger: "Compendium.dnd5e.equipment24.Item.phbwepDagger0000",
-  dart: "Compendium.dnd5e.equipment24.Item.phbwepDart000000",
-  flail: "Compendium.dnd5e.equipment24.Item.phbwepFlail00000",
-  glaive: "Compendium.dnd5e.equipment24.Item.phbwepGlaive0000",
-  greataxe: "Compendium.dnd5e.equipment24.Item.phbwepGreataxe00",
-  greatclub: "Compendium.dnd5e.equipment24.Item.phbwepGreatclub0",
-  greatsword: "Compendium.dnd5e.equipment24.Item.phbwepGreatsword",
-  halberd: "Compendium.dnd5e.equipment24.Item.phbwepHalberd000",
-  handaxe: "Compendium.dnd5e.equipment24.Item.phbwepHandaxe000",
-  handcrossbow: "Compendium.dnd5e.equipment24.Item.phbwepHandCrossb",
-  heavycrossbow: "Compendium.dnd5e.equipment24.Item.phbwepHeavyCross",
-  javelin: "Compendium.dnd5e.equipment24.Item.phbwepJavelin000",
-  lance: "Compendium.dnd5e.equipment24.Item.phbwepLance00000",
-  lightcrossbow: "Compendium.dnd5e.equipment24.Item.phbwepLightCross",
-  lighthammer: "Compendium.dnd5e.equipment24.Item.phbwepLightHamme",
-  longbow: "Compendium.dnd5e.equipment24.Item.phbwepLongbow000",
-  longsword: "Compendium.dnd5e.equipment24.Item.phbwepLongsword0",
-  mace: "Compendium.dnd5e.equipment24.Item.phbwepMace000000",
-  maul: "Compendium.dnd5e.equipment24.Item.phbwepMaul000000",
-  morningstar: "Compendium.dnd5e.equipment24.Item.phbwepMorningsta",
-  musket: "Compendium.dnd5e.equipment24.Item.phbwepMusket0000",
-  pike: "Compendium.dnd5e.equipment24.Item.phbwepPike000000",
-  pistol: "Compendium.dnd5e.equipment24.Item.phbwepPistol0000",
-  quarterstaff: "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
-  rapier: "Compendium.dnd5e.equipment24.Item.phbwepRapier0000",
-  scimitar: "Compendium.dnd5e.equipment24.Item.phbwepScimitar00",
-  shortsword: "Compendium.dnd5e.equipment24.Item.phbwepShortsword",
-  sickle: "Compendium.dnd5e.equipment24.Item.phbwepSickle0000",
-  spear: "Compendium.dnd5e.equipment24.Item.phbwepSpear00000",
-  shortbow: "Compendium.dnd5e.equipment24.Item.phbwepShortbow00",
-  sling: "Compendium.dnd5e.equipment24.Item.phbwepSling00000",
-  trident: "Compendium.dnd5e.equipment24.Item.phbwepTrident000",
-  warpick: "Compendium.dnd5e.equipment24.Item.phbwepWarPick000",
-  warhammer: "Compendium.dnd5e.equipment24.Item.phbwepWarhammer0",
-  whip: "Compendium.dnd5e.equipment24.Item.phbwepWhip000000"
+  club: "",
+  dagger: "",
+  knife: "",
+  handaxe: "",
+  machete: "",
+  lightcrossbow: "",
+  lighthammer: "",
+  quarterstaff: "",
+  shortbow: "",
+  sickle: "",
+  lightpistol: "",
+  sling: "",
+  mace: "",
+  // Schwere Waffen (Martial)
+  battleaxe: "",
+  heavypistol: "",
+  rifle: "",
+  sword: "",
+  heavycrossbow: "",
+  warhammer: "",
+  longbow: "",
+  whip: "",
+  rapier: "",
+  saber: "",
+  flail: ""
 };
 
 /* -------------------------------------------- */
@@ -684,148 +629,61 @@ preLocalize("toolProficiencies", { sort: true });
  */
 DND5E.tools = {
   alchemist: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulAlchemists"
-  },
-  bagpipes: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusBagpipes00"
+    ability: "int"
   },
   brewer: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulBrewersSup"
+    ability: "int"
   },
   calligrapher: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulCalligraph"
-  },
-  card: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbgstPlayingcar"
-  },
-  carpenter: {
-    ability: "str",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulCarpenters"
-  },
-  cartographer: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulCartograph"
-  },
-  chess: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbgstDragonches"
-  },
-  cobbler: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulCobblersTo"
-  },
-  cook: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulCooksUtens"
-  },
-  dice: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbgstDice000000"
-  },
-  disg: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulDisguiseKi"
-  },
-  drum: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusDrum000000"
-  },
-  dulcimer: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusDulcimer00"
-  },
-  flute: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusFlute00000"
-  },
-  forg: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulForgeryKit"
-  },
-  glassblower: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulGlassblowe"
-  },
-  herb: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulHerbalismK"
-  },
-  horn: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusHorn000000"
-  },
-  jeweler: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulJewelersTo"
-  },
-  leatherworker: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulLeatherwor"
-  },
-  lute: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusLute000000"
-  },
-  lyre: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusLyre000000"
-  },
-  mason: {
-    ability: "str",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulMasonsTool"
-  },
-  navg: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulNavigators"
-  },
-  painter: {
-    ability: "wis",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulPaintersSu"
-  },
-  panflute: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusPanflute00"
-  },
-  pois: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulPoisonersK"
-  },
-  potter: {
-    ability: "int",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulPottersToo"
-  },
-  shawm: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusShawm00000"
-  },
-  smith: {
-    ability: "str",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulSmithsTool"
-  },
-  thief: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulThievesToo"
+    ability: "dex"
   },
   tinker: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulTinkersToo"
+    ability: "dex"
   },
-  viol: {
-    ability: "cha",
-    id: "Compendium.dnd5e.equipment24.Item.phbmusViol000000"
+  cartographer: {
+    ability: "wis"
+  },
+  cook: {
+    ability: "wis"
+  },
+  mason: {
+    ability: "str"
+  },
+  jeweler: {
+    ability: "int"
+  },
+  glassblower: {
+    ability: "int"
+  },
+  leatherworker: {
+    ability: "dex"
+  },
+  cobbler: {
+    ability: "dex"
+  },
+  painter: {
+    ability: "wis"
+  },
+  potter: {
+    ability: "int"
+  },
+  smith: {
+    ability: "str"
+  },
+  carpenter: {
+    ability: "str"
   },
   weaver: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulWeaversToo"
+    ability: "dex"
   },
   woodcarver: {
-    ability: "dex",
-    id: "Compendium.dnd5e.equipment24.Item.phbtulWoodcarver"
+    ability: "dex"
+  },
+  mechanic: {
+    ability: "int"
+  },
+  locksmith: {
+    ability: "dex"
   }
 };
 
@@ -1516,11 +1374,10 @@ preLocalize("enchantmentPeriods", { key: "label" });
  * @enum {string}
  */
 DND5E.armorTypes = {
-  light: "DND5E.EquipmentLight",
-  medium: "DND5E.EquipmentMedium",
-  heavy: "DND5E.EquipmentHeavy",
-  natural: "DND5E.EquipmentNatural",
-  shield: "DND5E.EquipmentShield"
+  clothing: "Normale Kleidung",
+  light: "Leichte Rüstung",
+  heavy: "Schwere Rüstung",
+  shield: "Schild"
 };
 preLocalize("armorTypes");
 
@@ -1531,10 +1388,9 @@ preLocalize("armorTypes");
  * @enum {string}
  */
 DND5E.armorProficiencies = {
-  lgt: "DND5E.ArmorLightProficiency",
-  med: "DND5E.ArmorMediumProficiency",
-  hvy: "DND5E.ArmorHeavyProficiency",
-  shl: "DND5E.EquipmentShieldProficiency"
+  lgt: "Leichte Rüstungen",
+  hvy: "Schwere Rüstungen",
+  shl: "Schilde"
 };
 preLocalize("armorProficiencies");
 
@@ -1546,10 +1402,8 @@ preLocalize("armorProficiencies");
  * @enum {(boolean|string)}
  */
 DND5E.armorProficienciesMap = {
-  natural: true,
   clothing: true,
   light: "lgt",
-  medium: "med",
   heavy: "hvy",
   shield: "shl"
 };
@@ -1561,20 +1415,7 @@ DND5E.armorProficienciesMap = {
  * automated AC calculation in NPCs, and starting equipment.
  * @enum {string}
  */
-DND5E.armorIds = {
-  breastplate: "Compendium.dnd5e.equipment24.Item.phbarmBreastplat",
-  chainmail: "Compendium.dnd5e.equipment24.Item.phbarmChainMail0",
-  chainshirt: "Compendium.dnd5e.equipment24.Item.phbarmChainShirt",
-  halfplate: "Compendium.dnd5e.equipment24.Item.phbarmHalfPlateA",
-  hide: "Compendium.dnd5e.equipment24.Item.phbarmHideArmor0",
-  leather: "Compendium.dnd5e.equipment24.Item.phbarmLeatherArm",
-  padded: "Compendium.dnd5e.equipment24.Item.phbarmPaddedArmo",
-  plate: "Compendium.dnd5e.equipment24.Item.phbarmPlateArmor",
-  ringmail: "Compendium.dnd5e.equipment24.Item.phbarmRingMail00",
-  scalemail: "Compendium.dnd5e.equipment24.Item.phbarmScaleMail0",
-  splint: "Compendium.dnd5e.equipment24.Item.phbarmSplintArmo",
-  studded: "Compendium.dnd5e.equipment24.Item.phbarmStuddedLea"
-};
+DND5E.armorIds = {};
 
 /* -------------------------------------------- */
 
@@ -1582,9 +1423,7 @@ DND5E.armorIds = {
  * The basic shield in 5e.
  * @enum {string}
  */
-DND5E.shieldIds = {
-  shield: "Compendium.dnd5e.equipment24.Item.phbarmShield0000"
-};
+DND5E.shieldIds = {};
 
 /* -------------------------------------------- */
 
@@ -1604,26 +1443,6 @@ DND5E.armorClasses = {
   default: {
     label: "DND5E.ArmorClassEquipment",
     formula: "@attributes.ac.armor + @attributes.ac.dex"
-  },
-  mage: {
-    label: "DND5E.ArmorClassMage",
-    formula: "13 + @abilities.dex.mod"
-  },
-  draconic: {
-    label: "DND5E.ArmorClassDraconic",
-    formula: "13 + @abilities.dex.mod"
-  },
-  unarmoredMonk: {
-    label: "DND5E.ArmorClassUnarmoredMonk",
-    formula: "10 + @abilities.dex.mod + @abilities.wis.mod"
-  },
-  unarmoredBarb: {
-    label: "DND5E.ArmorClassUnarmoredBarbarian",
-    formula: "10 + @abilities.dex.mod + @abilities.con.mod"
-  },
-  unarmoredBard: {
-    label: "DND5E.ArmorClassUnarmoredBard",
-    formula: "10 + @abilities.dex.mod + @abilities.cha.mod"
   },
   custom: {
     label: "DND5E.ArmorClassCustom"
@@ -1870,12 +1689,14 @@ preLocalize("featureTypes.supernaturalGift.subtypes", { sort: true });
  * @enum {ItemPropertyConfiguration}
  */
 DND5E.itemProperties = {
-  ada: {
-    label: "DND5E.ITEM.Property.Adamantine",
+  mgc: {
+    label: "Magisch/Geheiligt",
+    icon: "systems/dnd5e/icons/svg/properties/magical.svg",
     isPhysical: true
   },
-  amm: {
-    label: "DND5E.ITEM.Property.Ammunition"
+  sil: {
+    label: "Versilbert",
+    isPhysical: true
   },
   concentration: {
     label: "DND5E.ITEM.Property.Concentration",
@@ -1884,46 +1705,6 @@ DND5E.itemProperties = {
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ow58p27ctAnr4VPH",
     isTag: true
   },
-  fin: {
-    label: "DND5E.ITEM.Property.Finesse"
-  },
-  fir: {
-    label: "DND5E.ITEM.Property.Firearm"
-  },
-  foc: {
-    label: "DND5E.ITEM.Property.Focus"
-  },
-  gear: {
-    label: "DND5E.ITEM.Property.Gear"
-  },
-  hvy: {
-    label: "DND5E.ITEM.Property.Heavy"
-  },
-  lgt: {
-    label: "DND5E.ITEM.Property.Light"
-  },
-  lod: {
-    label: "DND5E.ITEM.Property.Loading"
-  },
-  material: {
-    label: "DND5E.ITEM.Property.Material",
-    abbreviation: "DND5E.ComponentMaterialAbbr",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.AeH5eDS4YeM9RETC"
-  },
-  mgc: {
-    label: "DND5E.ITEM.Property.Magical",
-    icon: "systems/dnd5e/icons/svg/properties/magical.svg",
-    isPhysical: true
-  },
-  rch: {
-    label: "DND5E.ITEM.Property.Reach"
-  },
-  rel: {
-    label: "DND5E.ITEM.Property.Reload"
-  },
-  ret: {
-    label: "DND5E.ITEM.Property.Returning"
-  },
   ritual: {
     label: "DND5E.ITEM.Property.Ritual",
     abbreviation: "DND5E.RitualAbbr",
@@ -1931,40 +1712,29 @@ DND5E.itemProperties = {
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.FjWqT5iyJ89kohdA",
     isTag: true
   },
-  sidekick: {
-    label: "DND5E.ITEM.Property.Sidekick"
-  },
-  sil: {
-    label: "DND5E.ITEM.Property.Silvered",
-    isPhysical: true
+  material: {
+    label: "DND5E.ITEM.Property.Material",
+    abbreviation: "DND5E.ComponentMaterialAbbr",
+    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.AeH5eDS4YeM9RETC"
   },
   somatic: {
     label: "DND5E.ITEM.Property.Somatic",
     abbreviation: "DND5E.ComponentSomaticAbbr",
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.qwUNgUNilEmZkSC9"
   },
-  spc: {
-    label: "DND5E.ITEM.Property.Special"
-  },
-  stealthDisadvantage: {
-    label: "DND5E.ITEM.Property.StealthDisadvantage"
-  },
-  thr: {
-    label: "DND5E.ITEM.Property.Thrown"
-  },
-  trait: {
-    label: "DND5E.ITEM.Property.Trait"
-  },
-  two: {
-    label: "DND5E.ITEM.Property.TwoHanded"
-  },
-  ver: {
-    label: "DND5E.ITEM.Property.Versatile"
-  },
   vocal: {
     label: "DND5E.ITEM.Property.Verbal",
     abbreviation: "DND5E.ComponentVerbalAbbr",
     reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6UXTNWMCQ0nSlwwx"
+  },
+  gear: {
+    label: "DND5E.ITEM.Property.Gear"
+  },
+  trait: {
+    label: "DND5E.ITEM.Property.Trait"
+  },
+  sidekick: {
+    label: "DND5E.ITEM.Property.Sidekick"
   },
   weightlessContents: {
     label: "DND5E.ITEM.Property.WeightlessContents"
@@ -2003,23 +1773,8 @@ DND5E.validProperties = {
     "mgc"
   ]),
   weapon: new Set([
-    "ada",
-    "amm",
-    "fin",
-    "fir",
-    "foc",
-    "hvy",
-    "lgt",
-    "lod",
     "mgc",
-    "rch",
-    "rel",
-    "ret",
-    "sil",
-    "spc",
-    "thr",
-    "two",
-    "ver"
+    "sil"
   ]),
   spell: new Set([
     "vocal",
@@ -2076,35 +1831,30 @@ preLocalize("lootTypes", { key: "label" });
  * @enum {CurrencyConfiguration}
  */
 DND5E.currencies = {
-  pp: {
-    label: "DND5E.CurrencyPP",
-    abbreviation: "DND5E.CurrencyAbbrPP",
-    conversion: 0.1,
-    icon: "systems/dnd5e/icons/currency/platinum.webp"
+  eur: {
+    label: "Euro",
+    abbreviation: "EUR",
+    conversion: 1
   },
-  gp: {
-    label: "DND5E.CurrencyGP",
-    abbreviation: "DND5E.CurrencyAbbrGP",
-    conversion: 1,
-    icon: "systems/dnd5e/icons/currency/gold.webp"
+  usd: {
+    label: "US-Dollar",
+    abbreviation: "USD",
+    conversion: 1
   },
-  ep: {
-    label: "DND5E.CurrencyEP",
-    abbreviation: "DND5E.CurrencyAbbrEP",
-    conversion: 2,
-    icon: "systems/dnd5e/icons/currency/electrum.webp"
+  jpy: {
+    label: "Japanischer Yen",
+    abbreviation: "JPY",
+    conversion: 1
   },
-  sp: {
-    label: "DND5E.CurrencySP",
-    abbreviation: "DND5E.CurrencyAbbrSP",
-    conversion: 10,
-    icon: "systems/dnd5e/icons/currency/silver.webp"
+  cny: {
+    label: "Chinesischer Yuan",
+    abbreviation: "CNY",
+    conversion: 1
   },
-  cp: {
-    label: "DND5E.CurrencyCP",
-    abbreviation: "DND5E.CurrencyAbbrCP",
-    conversion: 100,
-    icon: "systems/dnd5e/icons/currency/copper.webp"
+  rub: {
+    label: "Russischer Rubel",
+    abbreviation: "RUB",
+    conversion: 1
   }
 };
 preLocalize("currencies", { keys: ["label", "abbreviation"] });
@@ -2115,7 +1865,7 @@ preLocalize("currencies", { keys: ["label", "abbreviation"] });
  * Default currency used for data model defaults, starting wealth, and facility prices.
  * @enum {string}
  */
-DND5E.defaultCurrency = "gp";
+DND5E.defaultCurrency = "eur";
 
 /* -------------------------------------------- */
 
@@ -2239,86 +1989,73 @@ preLocalize("damageScalingModes", { keys: ["label", "labelCantrip"] });
  * @enum {DamageTypeConfiguration}
  */
 DND5E.damageTypes = {
-  acid: {
-    label: "DND5E.DAMAGE.Type.Acid",
-    icon: "systems/dnd5e/icons/svg/damage/acid.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.IQhbKRPe1vCPdh8v",
-    color: new Color(0x839D50)
-  },
-  bludgeoning: {
-    label: "DND5E.DAMAGE.Type.Bludgeoning",
-    icon: "systems/dnd5e/icons/svg/damage/bludgeoning.svg",
-    isPhysical: true,
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.39LFrlef94JIYO8m",
-    color: new Color(0x0000A0)
-  },
-  cold: {
-    label: "DND5E.DAMAGE.Type.Cold",
-    icon: "systems/dnd5e/icons/svg/damage/cold.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.4xsFUooHDEdfhw6g",
-    color: new Color(0xADD8E6)
-  },
-  fire: {
-    label: "DND5E.DAMAGE.Type.Fire",
-    icon: "systems/dnd5e/icons/svg/damage/fire.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.f1S66aQJi4PmOng6",
-    color: new Color(0xFF4500)
-  },
-  force: {
-    label: "DND5E.DAMAGE.Type.Force",
-    icon: "systems/dnd5e/icons/svg/damage/force.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.eFTWzngD8dKWQuUR",
-    color: new Color(0x800080)
-  },
-  lightning: {
-    label: "DND5E.DAMAGE.Type.Lightning",
-    icon: "systems/dnd5e/icons/svg/damage/lightning.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.9SaxFJ9bM3SutaMC",
-    color: new Color(0x1E90FF)
-  },
-  necrotic: {
-    label: "DND5E.DAMAGE.Type.Necrotic",
-    icon: "systems/dnd5e/icons/svg/damage/necrotic.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.klOVUV5G1U7iaKoG",
-    color: new Color(0x006400)
-  },
-  piercing: {
-    label: "DND5E.DAMAGE.Type.Piercing",
-    icon: "systems/dnd5e/icons/svg/damage/piercing.svg",
-    isPhysical: true,
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.95agSnEGTdAmKhyC",
-    color: new Color(0xC0C0C0)
-  },
-  poison: {
-    label: "DND5E.DAMAGE.Type.Poison",
-    icon: "systems/dnd5e/icons/svg/damage/poison.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.k5wOYXdWPzcWwds1",
-    color: new Color(0x8A2BE2)
-  },
-  psychic: {
-    label: "DND5E.DAMAGE.Type.Psychic",
-    icon: "systems/dnd5e/icons/svg/damage/psychic.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.YIKbDv4zYqbE5teJ",
-    color: new Color(0xFF1493)
-  },
-  radiant: {
-    label: "DND5E.DAMAGE.Type.Radiant",
-    icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.5tcK9buXWDOw8yHH",
-    color: new Color(0xFFD700)
-  },
   slashing: {
-    label: "DND5E.DAMAGE.Type.Slashing",
+    label: "Hieb",
     icon: "systems/dnd5e/icons/svg/damage/slashing.svg",
     isPhysical: true,
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sz2XKQ5lgsdPEJOa",
     color: new Color(0x8B0000)
   },
+  piercing: {
+    label: "Stich",
+    icon: "systems/dnd5e/icons/svg/damage/piercing.svg",
+    isPhysical: true,
+    color: new Color(0xC0C0C0)
+  },
+  bludgeoning: {
+    label: "Wucht",
+    icon: "systems/dnd5e/icons/svg/damage/bludgeoning.svg",
+    isPhysical: true,
+    color: new Color(0x0000A0)
+  },
+  lightning: {
+    label: "Blitz/Energie",
+    icon: "systems/dnd5e/icons/svg/damage/lightning.svg",
+    color: new Color(0x1E90FF)
+  },
+  fire: {
+    label: "Feuer",
+    icon: "systems/dnd5e/icons/svg/damage/fire.svg",
+    color: new Color(0xFF4500)
+  },
+  cold: {
+    label: "Kälte",
+    icon: "systems/dnd5e/icons/svg/damage/cold.svg",
+    color: new Color(0xADD8E6)
+  },
+  acid: {
+    label: "Säure",
+    icon: "systems/dnd5e/icons/svg/damage/acid.svg",
+    color: new Color(0x839D50)
+  },
+  poison: {
+    label: "Gift",
+    icon: "systems/dnd5e/icons/svg/damage/poison.svg",
+    color: new Color(0x8A2BE2)
+  },
   thunder: {
-    label: "DND5E.DAMAGE.Type.Thunder",
+    label: "Schall",
     icon: "systems/dnd5e/icons/svg/damage/thunder.svg",
-    reference: "Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.iqsmMHk7FSpiNkQy",
     color: new Color(0x708090)
+  },
+  radiant: {
+    label: "Gleißend",
+    icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
+    color: new Color(0xFFD700)
+  },
+  sacred: {
+    label: "Geheiligt",
+    icon: "systems/dnd5e/icons/svg/damage/radiant.svg",
+    color: new Color(0xFFFACD)
+  },
+  necrotic: {
+    label: "Nekrotisch",
+    icon: "systems/dnd5e/icons/svg/damage/necrotic.svg",
+    color: new Color(0x006400)
+  },
+  psychic: {
+    label: "Psychisch",
+    icon: "systems/dnd5e/icons/svg/damage/psychic.svg",
+    color: new Color(0xFF1493)
   }
 };
 preLocalize("damageTypes", { keys: ["label"], sort: true });
@@ -3908,53 +3645,27 @@ DND5E.bloodied = {
  * @enum {object}
  */
 DND5E.languages = {
-  standard: {
-    label: "DND5E.Language.Category.Standard",
+  modern: {
+    label: "Sprachen",
     selectable: false,
     children: {
-      common: "DND5E.Language.Language.Common",
-      draconic: "DND5E.Language.Language.Draconic",
-      dwarvish: "DND5E.Language.Language.Dwarvish",
-      elvish: "DND5E.Language.Language.Elvish",
-      giant: "DND5E.Language.Language.Giant",
-      gnomish: "DND5E.Language.Language.Gnomish",
-      goblin: "DND5E.Language.Language.Goblin",
-      halfling: "DND5E.Language.Language.Halfling",
-      orc: "DND5E.Language.Language.Orc",
-      sign: "DND5E.Language.Language.CommonSign"
-    }
-  },
-  exotic: {
-    label: "DND5E.Language.Category.Rare",
-    selectable: false,
-    children: {
-      aarakocra: "DND5E.Language.Language.Aarakocra",
-      abyssal: "DND5E.Language.Language.Abyssal",
-      cant: "DND5E.Language.Language.ThievesCant",
-      celestial: "DND5E.Language.Language.Celestial",
-      deep: "DND5E.Language.Language.DeepSpeech",
-      druidic: "DND5E.Language.Language.Druidic",
-      gith: "DND5E.Language.Language.Gith",
-      gnoll: "DND5E.Language.Language.Gnoll",
-      infernal: "DND5E.Language.Language.Infernal",
-      primordial: {
-        label: "DND5E.Language.Language.Primordial",
-        children: {
-          aquan: "DND5E.Language.Language.Aquan",
-          auran: "DND5E.Language.Language.Auran",
-          ignan: "DND5E.Language.Language.Ignan",
-          terran: "DND5E.Language.Language.Terran"
-        }
-      },
-      sylvan: "DND5E.Language.Language.Sylvan",
-      undercommon: "DND5E.Language.Language.Undercommon"
+      english: "Englisch",
+      german: "Deutsch",
+      spanish: "Spanisch",
+      hindi: "Indisch",
+      japanese: "Japanisch",
+      chinese: "Chinesisch",
+      russian: "Russisch",
+      french: "Französisch",
+      arabic: "Arabisch",
+      portuguese: "Portugiesisch",
+      italian: "Italienisch",
+      latin: "Latein"
     }
   }
 };
 preLocalize("languages", { key: "label" });
-preLocalize("languages.standard.children", { key: "label", sort: true });
-preLocalize("languages.exotic.children", { key: "label", sort: true });
-preLocalize("languages.exotic.children.primordial.children", { sort: true });
+preLocalize("languages.modern.children", { sort: true });
 
 /* -------------------------------------------- */
 

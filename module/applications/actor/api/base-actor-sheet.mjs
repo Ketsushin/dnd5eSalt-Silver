@@ -295,6 +295,11 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       Object.keys(CONFIG.DND5E.currencies).map(k => [k, this.inventorySource.system._source.currency[k] ?? 0])
     );
 
+    // Wallet / Bank defaults (overridden by CharacterActorSheet)
+    context.hasBankAccount = false;
+    context.walletMode = true;
+    context.currencyAccount = "currency";
+
     // Containers
     context.itemContext ??= {};
     context.containers = context.itemCategories.containers ?? [];
@@ -619,6 +624,11 @@ export default class BaseActorSheet extends PrimarySheetMixin(
       // Add the spell to the relevant heading
       spellbook[method].items.push(spell);
     });
+
+    // Filter to only show cantrips (level 0) — Rituale & Zeichen
+    for ( const key of Object.keys(spellbook) ) {
+      if ( spellbook[key].dataset?.level !== 0 ) delete spellbook[key];
+    }
 
     // Sort the spellbook by section level
     return spellbook;
